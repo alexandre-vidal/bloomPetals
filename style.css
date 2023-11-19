@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Pacifico&display=swap');
+
+html {
+    background-color: #fffbfa;
+}
+
+.content {
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: white;
+}
+
+#navbar {
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    background-color: #767a85;
+}
+
+footer {
+    margin-left: 20%;
+    margin-right: 20%;
+    height: 65px;
+    background-color: #767a85;
+    margin-top: 30px;
+}
+
+.content hr {
+    width: 90%;
+}
+
+input {
+    border-radius: 9px;
+    background-color: #d9d9d9;
+}
+
+#navbar a {
+    color: black;
+    text-decoration: none;
+}
+
+#navbar a:hover {
+    color: rgb(16, 16, 139);
+}
+
+#navbar li {
+    list-style-type: none;  
+    display: inline-block;  
+    padding-right: 50px;
+    font-weight: 600;
+}
+
+#title {
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    font-size: 60px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+p, .description, #navbar, li {
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgb(80, 80, 80);
+}
+
+#navbar {
+    display: flex;
+    flex-direction: row;
+}
+
+p {
+    text-align: center;
+    font-size: large;
+    line-height: 30px;
+    margin-left: 5vh;
+    margin-right: 5vh;
+}
+
+p a {
+    text-decoration: none;
+    color: rgb(43, 153, 255);
+}
+
+p a:hover {
+    text-decoration: none;
+    color: rgb(12, 83, 214);
+}
+
+p a:active {
+    text-decoration: none;
+    color: rgb(214, 12, 12);
+}
+
+.placeholder {
+    display: flex;
+    justify-content: center;
+}
+
+.placeholder img {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    height: 145px;
+}
+
+.description {
+    color: red;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+.description-liste {
+    display: flex;
+    flex: 1;
+}
+
+.description-liste li {
+    flex: 1;
+    list-style: none;
+    padding-right: 45px;
+    line-height: 28px;
+}
+
+.description-liste2 {
+    list-style: none;
+}
+
+#description2 {
+    font-size: medium;
+    text-align: left;
+    line-height: 22px;
+}
